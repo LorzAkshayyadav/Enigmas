@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import WebSocketComponent from "../server";
+import WebSocketComponent from "./server";
 
 function DataVisualizer() {
   const [values, setValues] = useState({ Pinch: 0, Pitch: 0, Roll: 0, Yaw: 0 });

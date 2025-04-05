@@ -10,7 +10,7 @@ import VibrantToaster from "./Toaster";
 import "./App.css";
 import Background from "./Scene";
 import Plot from "./plot";
-import WebSocketComponent from "../server";
+import WebSocketComponent from "./server";
 
 function App() {
   const [instruments, setInstruments] = useState(["Scissor", "Grasper", "Holder", "Dissector", "Teneculum"]);

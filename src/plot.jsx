@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import RealTimeChart from "./RealTimeChart";
 import "./Plot.css";
-import WebSocketComponent from "../server"; // Importing your WebSocket component
+import WebSocketComponent from "./server"; // Importing your WebSocket component
 
 const Plot = () => {
   const [activeSection, setActiveSection] = useState(null);

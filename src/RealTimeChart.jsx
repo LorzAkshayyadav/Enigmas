@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import Plot from "react-plotly.js";
 import "./Plot.css";
-import WebSocketComponent from "../server"; // Import WebSocketComponent
+import WebSocketComponent from "./server"; // Import WebSocketComponent
 
 const RealTimeChart = ({ instrumentId }) => {
   const [dataPoints, setDataPoints] = useState({ x: [], data: {} });
